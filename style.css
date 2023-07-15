@@ -1,0 +1,109 @@
+    *{
+        font-family: 'Indie Flower', cursive;
+    }
+    body {
+        background: linear-gradient(to right, #ff9966, #ff5e62); 
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        /* background-size: cover; */
+        /* background: rgb(42,42,42); */
+        
+    }
+    input[type="text"],
+    input[type="date"],#priority,
+    select {
+        background-color: #f5fe4887;
+        border:2px solid rgb(154, 34, 2);
+        border-radius: 5px;
+        padding: 10px;
+        width: 100%;
+    }
+
+    input[type="text"]:focus,
+    input[type="date"]:focus,
+    select:focus {
+        outline: none;
+        box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    }
+
+    button.btn {
+    padding: 8px 16px;
+    border: none;
+    border-radius: 10px;
+    color: #fff;
+    font-weight: bold;
+    cursor: pointer;
+    }
+
+    button.btn-primary {
+    background-color: #2f96e6;
+    border:2px solid rgb(12, 118, 154);
+    }
+
+    button.btn-secondary {
+    background-color: #6c757d;
+    }
+
+    button.btn-danger {
+    background-color: #35dc4b;
+    }
+
+    button.btn-success {
+    background-color: #28a745;
+    }
+
+    button.btn:hover {
+    opacity: 0.8;
+    }
+
+    .container {
+      margin-top: 50px;
+    }
+
+    #task-table th {
+      cursor: pointer;
+    }
+
+    #message {
+      display: none;
+    }
+    .form-row{
+        font-size: 35px;
+    }
+
+    .head-1 {
+      color: rgb(255, 30, 0);
+      text-shadow: 2px 2px blue;
+      font-size:80px;
+    }
+    .task-table{
+        padding:20px;
+    }
+
+    .tasks-list{
+        background-color: #fbfbfb1b;
+        padding:30px;
+        border-radius: 15px;
+    }
+    .priority-low {
+      color: green;
+    }
+
+    .priority-medium {
+      color: rgb(255, 72, 0);
+    }
+
+    .priority-high {
+      color: red;
+    }
+
+    .btn-danger {
+      background-color: #35dc4b;
+      border-color: #205725;
+    }
+
+    .btn-danger:hover {
+      background-color: #23c847;
+      border-color: #205725;
+    }
